@@ -1,0 +1,222 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+header .logo-container img {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  font-weight: 600;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #1db954;
+}
+
+/* Hero Section */
+.hero {
+  background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #1db954;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1ed760;
+}
+
+.hero .btn {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Beats Section */
+.beats {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.beats h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.beat-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.beat-card {
+  background-color: #1e1e1e;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.beat-card:hover {
+  transform: scale(1.05);
+}
+
+.beat-card img {
+  border-radius: 10px;
+}
+
+.beat-info {
+  margin-top: 20px;
+}
+
+.beat-info h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.beat-info p {
+  font-size: 14px;
+  color: #bbb;
+  margin: 10px 0;
+}
+
+audio {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.download-btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #1db954;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #1ed760;
+}
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1e1e1e;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact a {
+  color: #1db954;
+}
+
+/* Footer Section */
+footer {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #bbb;
+  font-size: 14px;
+}
